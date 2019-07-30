@@ -1,2 +1,5 @@
-const deepClone = require("./deepClone");
+import { deepClone } from "./deepClone";
 
+export {
+    deepClone
+}

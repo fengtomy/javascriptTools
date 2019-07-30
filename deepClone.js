@@ -39,4 +39,6 @@ const deepClone = (() => {
     };
 })();
 
-module.exports = deepClone;
+export {
+    deepClone
+}
