@@ -33,7 +33,7 @@ const deepClone = (() => {
                 }
             });
         } else {
-            cloned[key] = val;
+            cloned = val;
         }
         return cloned;
     };
